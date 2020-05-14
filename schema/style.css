@@ -1,0 +1,53 @@
+body {
+    background-color: #575C64E3;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.container-separation {
+    width: 75%;
+}
+
+.header {
+    background-color: #2A2828;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    width: auto;
+    height: 110px;
+    margin: auto;
+
+}
+
+#validatorTitle{
+    text-shadow: 2px 2px orange;
+}
+
+.submitButton{
+    border: 4px solid black;
+    background-color: #2A2828;
+    width: 152px;
+    height: 42px;
+    margin:auto;
+}
+#validationSubmitText{
+    color: white;
+    font-family: VCR;
+    font-size: 35px;
+    margin:auto;
+}
+
+.centeredContent{
+    text-align: center;
+}
+
+@font-face {
+    font-family: VCR;
+    src: url(../res/fonts/VCR.ttf) format('truetype');
+}
